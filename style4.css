@@ -1,0 +1,121 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+body{
+    margin:10px auto;
+    width:100%;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    
+}
+.container{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    border:2px solid gray;
+    width:70%;
+}
+.sidebar1{
+    display:flex;
+    flex-direction:column;
+    background-color:gray;
+    width:30%;
+    flex-wrap:wrap;
+}
+.sidebar11{
+    display:flex;
+    border:2px solid black;
+    flex-direction: column;
+    width:83%;
+    flex-wrap:wrap;
+    margin:20px auto;
+    padding-bottom:90px;
+    
+}
+.sidebar2{
+    display:flex;
+    flex-direction:column;
+    width:70%;
+}
+.sidebar11 img{
+    display:flex;
+    flex-wrap:wrap;
+    width:100%;
+    border-radius:50%;
+    padding:1.5rem;
+}
+.sidebar111 h3{
+    display:flex;
+    flex-direction:column;
+    width:100%;
+    font-size:1.4rem;
+    line-height:1.7rem;
+    padding:00.4em;
+    text-transform: uppercase;
+}
+.sidebar111 p{
+    display:flex;
+    flex-direction:column;
+    width:100%;
+    flex-wrap:wrap;
+    font-size:1.2rem;
+    line-height:1.7rem;
+    padding:00.4em;
+    text-indent:10px;
+    text-transform: capitalize;
+}
+.sidebar22{
+    display:flex;
+    flex-direction:column;
+    padding:2rem;
+    font-size:1.5rem;
+    width:100%;
+    border-bottom:2px solid black;
+}
+.sidebar222 p,h3{
+    display:flex;
+    flex-direction:column;
+    text-align:justify;
+    font-size:1.3rem;
+    padding:0.3em;
+    width:100%;
+    
+}
+.sidebar222 h3{
+    font-size:1.7rem;
+    text-transform: capitalize;
+    color:rgb(0, 82, 129);
+}
+.sidebar222 p{
+    text-indent:30px;
+}
+.sidebar222 ul{
+    display:flex;
+    flex-direction:column;
+    font-size:1.3rem;
+    width:80%;
+    padding:20px;
+    margin:5px auto;
+    line-height:2rem;
+}
+.sidebar222 ul li{
+    line-height:2rem;
+    padding-bottom:1rem;
+}
+.name{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    margin:20px;
+}
+.sidebar1:hover{
+    background-color: rgb(231, 206, 206);
+    color:blue;
+}
+.sidebar2:hover{
+    background-color:rgb(231,206,206);
+    color:blue;
+}
