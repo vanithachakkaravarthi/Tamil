@@ -1,0 +1,45 @@
+*{
+   margin:0;
+   padding:0;
+   box-sizing:border-box;
+}
+body{
+    background-color:bisque;
+    min-height:100vh;
+    font-family:'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: column;
+}
+header,main,footer,nav{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    font-size:1.7rem;
+
+}
+header h1,footer{
+    width:100%;
+    background-color:black;
+    color:white;
+    text-align: center;
+    padding:5px;
+}
+header nav{
+    display:flex;
+    background-color: white;
+    color:black;
+    width:100%;
+    padding:10px;
+    border-bottom:2px solid black;
+
+
+}
+main{
+    display:flex;
+    flex:1;
+    background-image:radial-gradient(whitesmoke,#475569);
+}
+main:hover{
+    background-image:repeating-radial-gradient(white 5%,red 10%,blue 5%);
+}
